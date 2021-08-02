@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void factorisation(int n){
+void prime_factorisation(int n){
     int pf[n+1] = {0};
     for(int i=2;i<=n;i++){
         pf[i]=i;
@@ -23,5 +23,5 @@ void factorisation(int n){
 int main(){
     int n;
     cin>>n;
-    factorisation(n);
+    prime_factorisation(n);
 }
